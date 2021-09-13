@@ -10,4 +10,4 @@ def prime(n):
       return False
   return True
 ```
-
+One problem of the above code is that it would tell you that a number that is either negative or a decimal is also a prime. But before I rectify that problem, I want to point out that int/float 0 is equivalent to _False_ in boolean, and non-zero numbers are equivalent to _True_
